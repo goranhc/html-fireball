@@ -1,0 +1,130 @@
+{
+    "img": "assets/images/",
+    "svg": "assets/svg/",
+    "jobs": [
+        {
+            "title": "Truck driver",
+            "city": "Berlin"
+        },
+        {
+            "title": "Data analyst",
+            "city": "Amsterdam"
+        },
+        {
+            "title": "Customer support",
+            "city": "London"
+        },
+        {
+            "title": "Marketing manager",
+            "city": "Paris"
+        },
+        {
+            "title": "Software developer",
+            "city": "Barcelona"
+        }
+    ],
+    "team": [
+        {
+            "name": "John",
+            "lastname": "Bayly",
+            "position": "CEO",
+            "img": "1.jpg"
+        },
+        {
+            "name": "Emma",
+            "lastname": "Mance",
+            "position": "Manager",
+            "img": "2.jpg"
+        },
+        {
+            "name": "William",
+            "lastname": "Kores",
+            "position": "Designer",
+            "img": "3.jpg"
+        },
+        {
+            "name": "Sophia",
+            "lastname": "Guess",
+            "position": "Architect",
+            "img": "4.jpg"
+        },
+        {
+            "name": "Lanny",
+            "lastname": "Stanway",
+            "position": "SEO",
+            "img": "5.jpg"
+        },
+        {
+            "name": "Anna",
+            "lastname": "Genicke",
+            "position": "Administration",
+            "img": "6.jpg"
+        },
+        {
+            "name": "James",
+            "lastname": "Tomasek",
+            "position": "Designer",
+            "img": "7.jpg"
+        },
+        {
+            "name": "Megan",
+            "lastname": "Jacobsohn",
+            "position": "Developer",
+            "img": "8.jpg"
+        },
+        {
+            "name": "Luna",
+            "lastname": "Riddel",
+            "position": "Consultant",
+            "img": "9.jpg"
+        },
+        {
+            "name": "Harley",
+            "lastname": "Conroy",
+            "position": "PR",
+            "img": "10.jpg"
+        }
+    ],
+    "news": [
+        {
+            "img": "1.jpg",
+            "title": "Home Organizers that Add Color to Your Space",
+            "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
+        },
+        {
+            "img": "2.jpg",
+            "title": "How to Use Room Dividers in Small Spaces",
+            "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
+        },
+        {
+            "img": "3.jpg",
+            "title": "Get a notification when your kids walk in the door",
+            "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
+        },
+        {
+            "img": "4.jpg",
+            "title": "Open your shades with a simple voice command",
+            "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
+        },
+        {
+            "img": "5.jpg",
+            "title": "Automatically lock the front door when you head to work",
+            "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
+        },
+        {
+            "img": "6.jpg",
+            "title": "Lorem ipsum dolor isum",
+            "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
+        },
+        {
+            "img": "7.jpg",
+            "title": "Everything you need to know about vaccinations",
+            "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
+        },
+        {
+            "img": "8.jpg",
+            "title": "Six simple ways to save money on airport car parking",
+            "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
+        }
+    ]
+}

@@ -1,0 +1,445 @@
+<header>
+    <h2 class="display-4 mb-4">Boxes</h2>
+    <p>Boxes are modular elements and it can be related with <b><a href="#cards">cards</a></b>, but with different approach and less markup. Just customise any component!</p>
+</header>
+
+<figure>
+    <figcaption>Default example</figcaption>
+    <p>Each <code>.box-image</code> component class have <code>backgroud-size:cover</code> as default css property!</p>
+
+    <h5 class="mb-4">Default</h5>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="box bg-white br-sm mb-4 mb-lg-0">
+                <div class="box-image">
+                    <img src="{{docs.img}}placeholder.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="box-content px-4">
+                    <h4>Box title</h4>
+                    <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snippet-->
+    <div class='snippet'>
+        <span class='pre-label'>HTML</span>
+        <div class='snippet-box show'>
+            <pre class='mb-0 language-markup'><span class='btn btn-secondary btn-copy btn-sm' data-clipboard-snippet>Copy</span><code class='language-markup'>&lt;div class=&quot;box bg-white br-sm mb-4 mb-lg-0&quot;&gt;
+    &lt;div class=&quot;box-image&quot;&gt;
+        &lt;img src=&quot;placeholder.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;box-content px-4&quot;&gt;
+        &lt;h4&gt;Box title&lt;/h4&gt;
+        &lt;p class=&quot;mb-0&quot;&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+        </div>
+    </div>
+    <!--/Snippet-->
+
+    <div class="row">
+        <div class="col-lg-6">
+            <h5 class="mb-4">Background image</h5>
+            <div class="box box-image br-sm mb-4" style="background-image:url({{docs.img}}placeholder.jpg)">
+                <div class="box-content px-4 text-white">
+                    <h4>Box title</h4>
+                    <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                </div>
+            </div>
+
+            <!--Snippet-->
+            <div class="clearfix">
+                <div class="snippet">
+                    <span class="pre-label">Code</span>
+                    <div class="snippet-box show">
+                        <pre><span class="btn btn-secondary btn-copy btn-sm" data-clipboard-snippet>Copy</span><code class="language-markup">&lt;div class=&quot;box box-image br-sm&quot; style=&quot;background-image:url(placeholder.jpg)&quot;&gt;
+    &lt;div class=&quot;box-content px-4 text-white&quot;&gt;
+        &lt;h4&gt;Box title&lt;/h4&gt;
+        &lt;p class=&quot;mb-0&quot;&gt;...&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                </div>
+            </div>
+            <!--/Snippet-->
+        </div>
+        <div class="col-lg-6">
+
+            <h5 class="mb-4">Solid color</h5>
+            <div class="box box-image br-sm bg-primary">
+                <div class="box-content px-4 text-white">
+                    <h4>Box title</h4>
+                    <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                </div>
+            </div>
+
+            <!--Snippet-->
+            <div class='snippet'>
+                <span class='pre-label'>HTML</span>
+                <div class='snippet-box show'>
+                    <pre class='mb-0 language-markup'><span class='btn btn-secondary btn-copy btn-sm' data-clipboard-snippet>Copy</span><code class='language-markup'>&lt;div class=&quot;box box-image br-sm bg-primary&quot;&gt;
+    &lt;div class=&quot;box-content px-4 text-white&quot;&gt;
+        &lt;h4&gt;Box title&lt;/h4&gt;
+        &lt;p class=&quot;mb-0&quot;&gt;...&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+            <!--/Snippet-->
+        </div>
+    </div>
+
+</figure>
+
+<figure>
+
+    <figcaption>Box animations</figcaption>
+
+    <p>All animations are predifined with class name and minor markup changes. </p>
+
+    <h5 class="mb-4">Default hover</h5>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="box box-image box-hover br-sm" style="background-image:url({{docs.img}}placeholder.jpg)">
+                <div class="box-content px-4 text-white">
+                    <h4>Box image</h4>
+                    <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="box box-image box-hover br-sm bg-primary">
+                <div class="box-content px-4 text-white">
+                    <h4>Box solid</h4>
+                    <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snippet-->
+    <div class="clearfix">
+        <div class="snippet">
+            <span class="pre-label">Code</span>
+            <div class="snippet-box show">
+                <pre><span class="btn btn-secondary btn-copy btn-sm" data-clipboard-snippet>Copy</span><code class="language-markup">&lt;div class=&quot;box box-image box-hover br-sm&quot; style=&quot;background-image:url(placeholder.jpg)&quot;&gt;
+    &lt;div class=&quot;box-content px-4 text-white&quot;&gt;
+        &lt;h4&gt;Box title&lt;/h4&gt;
+        &lt;p class=&quot;mb-0&quot;&gt;
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+        </div>
+    </div>
+    <!--/Snippet-->
+
+    <h5 class="mb-4">Hover drop</h5>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="box box-image box-hover-drop shadow-sm" style="background-image:url({{docs.img}}placeholder.jpg)">
+                <div class="box-spacer-lg"></div>
+                <div class="box-content text-white">
+                    <h4 class="mb-1">
+                        <strong class="text-uppercase">Box hover</strong> drop
+                    </h4>
+                    <p>Image example</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="box box-hover-drop bg-danger shadow-sm">
+                <div class="box-spacer-lg"></div>
+                <div class="box-content text-white">
+                    <h4 class="mb-1">
+                        <strong class="text-uppercase">Box hover</strong> drop
+                    </h4>
+                    <p>Solid color example</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snippet-->
+    <div class="clearfix">
+        <div class="snippet">
+            <span class="pre-label">Code</span>
+            <div class="snippet-box show">
+                <pre><span class="btn btn-secondary btn-copy btn-sm" data-clipboard-snippet>Copy</span><code class="language-markup">&lt;!--Background image example--&gt;
+&lt;div class=&quot;box box-image box-hover-drop shadow-sm&quot; style=&quot;background-image:url(placeholder.jpg)&quot;&gt;
+    &lt;div class=&quot;box-spacer-lg&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;box-content text-white&quot;&gt;
+        &lt;h4 class=&quot;mb-1&quot;&gt;
+            &lt;strong class=&quot;text-uppercase&quot;&gt;Box hover&lt;/strong&gt; drop
+        &lt;/h4&gt;
+        &lt;p&gt;Image example&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Solid color example--&gt;
+&lt;div class=&quot;box box-hover-drop bg-danger shadow-sm&quot;&gt;
+    ...
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+    </div>
+    <!--/Snippet-->
+
+    <h5 class="mb-4">Hover slide</h5>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="box box-image box-hover-slide shadow-sm" style="background-image:url({{docs.img}}placeholder.jpg)">
+                <div class="box-spacer-lg"></div>
+                <div class="box-content p-3">
+                    <h5 class="mb-1"><strong class="text-uppercase">Box hover</strong> slide</h5>
+                    <p class="mb-0">Image example</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="box box-image box-hover-slide shadow-sm bg-info">
+                <div class="box-spacer-lg"></div>
+                <div class="box-content p-3">
+                    <h5 class="mb-1"><strong class="text-uppercase">Box hover</strong> slide</h5>
+                    <p class="mb-0">Solid example</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snippet-->
+    <div class="clearfix">
+        <div class="snippet">
+            <span class="pre-label">Code</span>
+            <div class="snippet-box show">
+                <pre><span class="btn btn-secondary btn-copy btn-sm" data-clipboard-snippet>Copy</span><code class="language-markup">&lt;div class=&quot;box box-image box-hover-slide shadow-sm&quot; style=&quot;background-image:url(placeholder.jpg)&quot;&gt;
+    &lt;div class=&quot;box-spacer-lg&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;box-content p-3&quot;&gt;
+        &lt;h5 class=&quot;mb-1&quot;&gt;
+            &lt;strong class=&quot;text-uppercase&quot;&gt;Box hover&lt;/strong&gt; slide
+        &lt;/h5&gt;
+        &lt;p class=&quot;mb-0&quot;&gt;Image example&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+    </div>
+    <!--/Snippet-->
+
+    <h5 class="mb-4">Hover fall</h5>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="box box-image box-hover-fall" style="background-image:url({{docs.img}}placeholder.jpg)">
+                <div class="box-spacer-lg"></div>
+                <div class="box-content">
+                    <h3 class="mb-3 text-white"><strong class="text-uppercase">Box hover</strong> fall</h3>
+                    <p><span>Fist paragraph comming</span></p>
+                    <p><span>Keep calm and build code</span></p>
+                    <p><span>Last paragraph animated</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="box box-image box-hover-fall bg-success">
+                <div class="box-spacer-lg"></div>
+                <div class="box-content">
+                    <h3 class="mb-3 text-white"><strong class="text-uppercase">Box hover</strong> fall</h3>
+                    <p><span>Fist paragraph comming</span></p>
+                    <p><span>Keep calm and build code</span></p>
+                    <p><span>Last paragraph animated</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snippet-->
+    <div class="clearfix">
+        <div class="snippet">
+            <span class="pre-label">Code</span>
+            <div class="snippet-box show">
+                <pre><span class="btn btn-secondary btn-copy btn-sm" data-clipboard-snippet>Copy</span><code class="language-markup">&lt;div class=&quot;box box-image box-hover-fall&quot; style=&quot;background-image:url(placeholder.jpg)&quot;&gt;
+    &lt;div class=&quot;box-spacer-lg&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;box-content&quot;&gt;
+        &lt;h3 class=&quot;mb-3 text-white&quot;&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;Box hover&lt;/strong&gt; fall&lt;/h3&gt;
+        &lt;p&gt;&lt;span&gt;Fist paragraph comming&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;Keep calm and build code&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;Last paragraph animated&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+    </div>
+    <!--/Snippet-->
+
+    <h5 class="mb-4">Hover pull</h5>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="box box-image box-hover-pull" style="background-image:url({{docs.img}}placeholder.jpg)">
+                <div class="box-spacer-lg"></div>
+                <div class="box-content">
+                    <header class="mb-0">
+                        <h3 class="mb-0"><span class="text-uppercase mb-0">Box hover </span>pull</h3>
+                    </header>
+                    <footer>This is footer</footer>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="box box-image box-hover-pull bg-primary">
+                <div class="box-spacer-lg"></div>
+                <div class="box-content">
+                    <header class="mb-0">
+                        <h3 class="mb-0"><span class="text-uppercase mb-0">Box hover </span>pull</h3>
+                    </header>
+                    <footer>This is footer</footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snippet-->
+    <div class='snippet'>
+        <span class='pre-label'>HTML</span>
+        <div class='snippet-box show'>
+            <pre class='mb-0 language-markup'><span class='btn btn-secondary btn-copy btn-sm' data-clipboard-snippet>Copy</span><code class='language-markup'>&lt;div class=&quot;box box-image box-hover-pull&quot; style=&quot;background-image:url(placeholder.jpg)&quot;&gt;
+    &lt;div class=&quot;box-spacer-lg&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;box-content&quot;&gt;
+        &lt;header&gt;
+            &lt;h3&gt;This is header&lt;/h3&gt;
+        &lt;/header&gt;
+        &lt;footer&gt;This is footer&lt;/footer&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+    <!--/Snippet-->
+
+</figure>
+
+<figure>
+    <figcaption>Box panel</figcaption>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="box box-image br-sm" style="background-image:url({{docs.img}}placeholder.jpg)">
+                <div class="box-content text-white">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-auto">
+                            <span class="pr-3"><i class="icon icon-star"></i></span>
+                        </div>
+                        <div class="col">
+                            <strong>This might be interesting</strong> <br />
+                            <span>Another great example</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-spacer"></div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="box box-image br-sm" style="background-image:url({{docs.img}}placeholder.jpg)">
+                <div class="box-spacer"></div>
+                <div class="box-content text-white">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-auto">
+                            <span class="pr-3"><i class="icon icon-star"></i></span>
+                        </div>
+                        <div class="col">
+                            <strong>This might be interesting</strong> <br />
+                            <span>Another great example</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snippet-->
+    <div class="clearfix">
+        <div class="snippet">
+            <span class="pre-label">HTML</span>
+            <div class="snippet-box show">
+                <pre><span class="btn btn-secondary btn-copy btn-sm" data-clipboard-snippet>Copy</span><code class="language-markup">&lt;div class=&quot;box box-image br-sm&quot; style=&quot;background-image:url(placeholder.jpg)&quot;&gt;
+    &lt;div class=&quot;box-content text-white&quot;&gt;
+        &lt;div class=&quot;row align-items-center no-gutters&quot;&gt;
+            &lt;div class=&quot;col-auto&quot;&gt;
+                &lt;span class=&quot;pr-3&quot;&gt;&lt;i class=&quot;icon icon-star h4&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col&quot;&gt;
+                &lt;strong&gt;This might be interesting&lt;/strong&gt; &lt;br /&gt;
+                &lt;span&gt;Another great example&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;box-spacer&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+    </div>
+    <!--/Snippet-->
+</figure>
+
+<figure>
+    <figcaption>Solid colors</figcaption>
+
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="box box-image br-xs bg-primary text-white">
+                <div class="box-content px-5 text-center">
+                    <small>.bg-primary</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="box box-image br-xs bg-secondary text-white">
+                <div class="box-content px-5 text-center">
+                    <small>.bg-secondary</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="box box-image br-xs bg-danger text-white">
+                <div class="box-content px-5 text-center">
+                    <small>.bg-danger</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="box box-image br-xs bg-success text-white">
+                <div class="box-content px-5 text-center">
+                    <small>.bg-success</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Snippet-->
+    <div class="clearfix">
+        <div class="snippet">
+            <span class="pre-label">Code</span>
+            <div class="snippet-box show">
+                <pre><span class="btn btn-secondary btn-copy btn-sm" data-clipboard-snippet>Copy</span><code class="language-markup">&lt;div class=&quot;box box-image br-xs bg-primary text-white&quot;&gt;
+    &lt;div class=&quot;box-content px-5 text-center&quot;&gt;
+        &lt;small&gt;.bg-primary&lt;/small&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+    </div>
+    <!--/Snippet-->
+</figure>

@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "html.format.endWithNewline": true,
+    "html.format.wrapLineLength": 0,
+    "files.insertFinalNewline": true,
+    "html.format.contentUnformatted": "pre,code,textarea",
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[scss]": {
+        "editor.formatOnSave": false
+    },
+}

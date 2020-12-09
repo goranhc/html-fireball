@@ -1,0 +1,92 @@
+<header>
+    <h2 class="display-4 mb-4">Theming</h2>
+    <p>Theming & dark mode</p>
+</header>
+
+<figure>
+    <figcaption>Introduction</figcaption>
+    <p>
+        Theming is available only if you use <b><a href="#build-tools">build tools</a></b>. It's accomplished by <code>SCSS</code> variables, <code>SCSS</code> maps, and custom <code>CSS</code>.
+        There’s no more dedicated stylesheet; instead, you can enable the built-in options to add gradients, shadows, and more.
+    </p>
+    <p>
+        <b>Important:</b> For using <code>SCSS</code> files without <u>building tools</u>, you need to download Bootstrap manually
+        and map paths in <code>_optional.scss</code> and <code>_required.scss</code> files. Please don't hesitate to ask us anything,
+        we have great support team. For more info please visit out <b><a href="http://helpdesk.elathemes.com/" target="_blank">helpdesk</a>.</b>
+    </p>
+</figure>
+
+<figure>
+    <figcaption>File structure</figcaption>
+    <p>If you’ve downloaded our source files you’ll want to manually setup something similar to that structure, keeping Reveal’s source files separate from your own.</p>
+    <!--Snippet-->
+    <div class="clearfix">
+        <div class="snippet">
+            <span class="pre-label">Code</span>
+            <div class="snippet-box text-muted show font-sm">
+                <pre><code class="language-markup">reveal/
+└─── source/
+    └──── assets/
+          └──── scss/
+                |──── components/
+                |──── defaults/
+                |──── utilities/
+                |──── widgets/
+                |──── _components.scss
+                |──── _defaults.scss
+                |──── _helpers.scss
+                |──── _optional.scss
+                |──── _required.scss
+                |──── _toc.scss
+                |──── _utilities.scss
+                |──── _widgets.scss
+                |──── _variables.scss
+                └──── style.scss
+</code></pre>
+            </div>
+        </div>
+    </div>
+    <!--/Snippet-->
+</figure>
+
+<figure>
+    <figcaption>Dark mode</figcaption>
+    <p>Applying dark mode is available through data attribute <code>data-theme="dark"</code>. To apply appereance on page set data attribude on <code>&lt;body&gt;</code> tag.</p>
+    <!--Snippet-->
+    <div class="clearfix">
+        <div class="snippet">
+            <span class="pre-label">Code</span>
+            <div class="snippet-box show">
+                <pre><span class="btn btn-secondary btn-copy btn-sm" data-clipboard-snippet>Copy</span><code class="language-markup">&lt;body data-theme=&quot;dark&quot;&gt;
+    &lt;!--Your page content--&gt;
+&lt;/body&gt;
+</code></pre>
+            </div>
+        </div>
+    </div>
+    <!--/Snippet-->
+</figure>
+
+<figure>
+    <figcaption>Dark mode on specific element</figcaption>
+    <p>Dark mode can be used on all HTML elements. Be aware that combining elements with dark mode is available only on specific element, which means body tag must not have data attribute with dark mode</p>
+    <!--Snippet-->
+    <div class="clearfix">
+        <div class="snippet">
+            <span class="pre-label">Code</span>
+            <div class="snippet-box show">
+                <pre><span class="btn btn-secondary btn-copy btn-sm" data-clipboard-snippet>Copy</span><code class="language-markup">&lt;body&gt;
+    &lt;section&gt;
+        &lt;!--Your content with default theme--&gt;
+    &lt;/section&gt;
+    &lt;section data-theme=&quot;dark&quot;&gt;
+        &lt;!--Your content with dark theme--&gt;
+    &lt;/section&gt;
+&lt;/body&gt;
+</code></pre>
+
+            </div>
+        </div>
+    </div>
+    <!--/Snippet-->
+</figure>

@@ -1,0 +1,67 @@
+{
+	"If Handlebras": {
+		"prefix": "h-if",
+		"body": [
+			"{{#if data}} $content{{/if}}"
+		],
+		"description": "If statement"
+	},
+	"Unless Handlebras": {
+		"prefix": "h-unless",
+		"body": [
+			"{{#unless data}} $content{{/unless}}"
+		],
+		"description": "!If statement"
+	},
+	"Foreach Handlebras": {
+		"prefix": "h-each",
+		"body": [
+			"{{#each data.items}} $content{{/each}}"
+		],
+		"description": "For each"
+	},
+	"Foreach Take Handlebras": {
+		"prefix": "h-eachtake",
+		"body": [
+			"{{#each (take data.items 4)}} $content{{/each}}"
+		],
+		"description": "For each take 4"
+	},
+	"Item @index Handlebras": {
+		"prefix": "h-index",
+		"body": [
+			"{{#ifequal @index 1}} $content{{/ifequal}}"
+		],
+		"description": "Take Index"
+	},
+	"Commment Handlebars": {
+		"prefix": "h-com",
+		"body": [
+			"{{> _comment title=\"$title\"}}"
+		],
+		"description": "Handlebars comment"
+	},
+	"Ifpage Handlebras": {
+		"prefix": "h-ifpage",
+		"body": [
+			"{{#ifpage 'page'}} active{{/ifpage}}"
+		],
+		"description": "Checkpage Handlebras"
+	},
+	"Code Snippet": {
+		"prefix": "h-code",
+		"body": [
+			"<!--Snippet-->",
+			"<div class='snippet'>",
+			"   <span class='pre-label'>HTML</span>",
+			"   <div class='snippet-box show'>",
+			"       <pre class='mb-0 language-markup'><span class='btn btn-secondary btn-copy btn-sm' data-clipboard-snippet>Copy</span><code class='language-markup'>",
+			"$code",
+			"</code></pre>",
+			"   </div>",
+			"</div>",
+			"<!--/Snippet-->",
+		],
+		"description": "Code snippet"
+	}
+}
