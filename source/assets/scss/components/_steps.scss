@@ -38,10 +38,10 @@
         }
     }
 
-    > ul {
+    .step-items {
         @include reset-spacing;
 
-        > li {
+        .step-figure {
             list-style-type: none;
             position: relative;
             text-align: center;
@@ -108,7 +108,16 @@
                 }
             }
 
-            &.active {
+            &.active,
+            .active  {
+                .step-item {
+                    background-color: $primary;
+                    border-color: $primary;
+                    color: $white;
+                }
+            }
+
+            &.done {
                 color: $body-color;
 
                 &:before {

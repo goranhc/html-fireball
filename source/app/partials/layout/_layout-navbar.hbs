@@ -1,39 +1,179 @@
 {{> _comment title="Main navigation"}}
 
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<nav class="navbar navbar-expand-lg navbar-sticky navbar-light">
+    <div class="container">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
+        <!-- Logo -->
+
+        <a class="navbar-brand mr-1" href="index.html">
+            <b>LANDSOFT</b>
+        </a>
+
+        <!-- Collapse -->
+
+        <div class="collapse navbar-collapse navbar-collapse-sidebar" id="mainNavbar">
+
+            <!-- Mobile search -->
+
+            <div class="d-block d-lg-none">
+                <div class="p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <img src="assets/svg/reveal-symbol.svg" alt="">
+                        <button class="btn p-0" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon icon-cross font-size-lg"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-light">
+                    <div class="form-group form-group-icon">
+                        <input type="text" class="form-control form-control-simple" placeholder="Search site">
+                        <button class="btn btn-clean"><i class="icon icon-magnifier"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navbar links -->
+
+            <ul class="navbar-nav ml-auto">
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
+
+                <!-- Single dropdown -->
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                    <a class="nav-link dropdown-toggle" href="#" id="pages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu" aria-labelledby="pages">
+                        <a class="dropdown-item" href="landing-pages.html">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <div class="px-1">
+                                        <i class="icon icon-book"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="px-2">
+                                        <p>Landing pages</p>
+                                        <span class="label">Pre-maded templates</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="inner-pages.html">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <span class="px-1">
+                                        <i class="icon icon-layers"></i>
+                                    </span>
+                                </div>
+                                <div>
+                                    <div class="px-2">
+                                        <p>Inner pages</p>
+                                        <span class="label">Combine with everything</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+
+
+                <!-- Single dropdown -->
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="support" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Support
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="support">
+                        <a class="dropdown-item" href="../documentation/index.html">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <span class="px-1 text-primary">
+                                        <i class="icon icon-book"></i>
+                                    </span>
+                                </div>
+                                <div>
+                                    <div class="px-2">
+                                        <p>Documentation</p>
+                                        <span class="label">Examples and guidelines</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="http://helpdesk.elathemes.com/" target="_blank">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <span class="px-1 text-danger">
+                                        <i class="icon icon-heart-pulse"></i>
+                                    </span>
+                                </div>
+                                <div>
+                                    <div class="px-2">
+                                        <p>Helpdesk</p>
+                                        <span class="label">Create ticket</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="https://themeforest.net/item/reveal-responsive-multipurpose-ecommerce-bootstrap-html-template/29644121" target="_blank">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <span class="px-1 text-dark">
+                                        <i class="icon icon-cart"></i>
+                                    </span>
+                                </div>
+                                <div>
+                                    <div class="px-2">
+                                        <p>Get licence</p>
+                                        <span class="label">Buy this template</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </li>
+
+                <!-- Links mobile -->
+
+                <li class="nav-item d-block d-lg-none">
+                    <hr>
+                    <a href="#" class="nav-link"><small>Documentation</small></a>
+                    <a href="#" class="nav-link"><small>Helpdesk</small></a>
+                    <a href="#" class="nav-link"><small>About us</small></a>
+                    <hr>
+                    <div class="row row-sm">
+                        <div class="col-6">
+                            <a href="#" class="btn btn-block btn-sm btn-outline-secondary">
+                                <i class="icon icon-map"></i>
+                                <span>Find store</span>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-block btn-sm btn-outline-secondary">
+                                <i class="icon icon-phone-handset"></i>
+                                <span>Call us</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </li>
+
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
-    </nav>
-</div>
+
+        <!-- Navbar toggler -->
+
+        <div class="d-flex align-items-center">
+            <a class="btn btn-sm btn-primary btn-rounded ml-lg-4 px-3" href="https://themeforest.net/item/reveal-responsive-multipurpose-ecommerce-bootstrap-html-template/29644121">
+                <i class="icon icon-cart"></i> Purchase
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon icon-menu"></span>
+            </button>
+        </div>
+
+    </div>
+</nav>

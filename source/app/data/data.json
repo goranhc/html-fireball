@@ -126,5 +126,31 @@
             "title": "Six simple ways to save money on airport car parking",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         }
+    ],
+    "services": [
+        {
+            "title": "Dedicated Development Team",
+            "desc": "For full-cycle product development, we assemble a team consisting of the project manager, business analyst, UI/UX designer, front and back-end developer, DevOps, and QA engineer."
+        },
+        {
+            "title": "Web development",
+            "desc": "For the last 7 years we have implemented more than 320 projects and went far in web development."
+        },
+        {
+            "title": "Mobile development",
+            "desc": "In cooperation with startups, we have learned how to design creative and functional user experience for mobile applications."
+        },
+        {
+            "title": "Web design",
+            "desc": "Our company follows a human-centered approach to design."
+        },
+        {
+            "title": "QA & Testing",
+            "desc": "Our goal is to provide complete peace of mind that your software development will deliver an exceptional, error-free customer experience."
+        },
+        {
+            "title": "Machine Learning Agency",
+            "desc": "Machine Learning is a subset of AI where the machine is trained to learn and improve from its past experience."
+        }
     ]
 }

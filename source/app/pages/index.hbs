@@ -2,8 +2,166 @@
 page-title: Page title
 page-subtitle: Page subtitle
 ---
-<section>
+<section class="pt-lg-8">
     <div class="container">
-        <p>Hello world</p>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4">Achieve your <b class="text-primary">business goals</b> with a leading software development agency</h1>
+                <div class="py-4">
+                    <p>Grow your business, save time, and create beautiful custom software that delivers outstanding results</p>
+                </div>
+                <p><a href="#" class="btn btn-primary btn-rounded px-4">Expert session</a></p>
+            </div>
+            <div class="col-lg-6">
+                <img src="{{data.img}}demo/img-1.png" alt="Main image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider bg-light">
+    <svg class="svg svg-white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="100" viewBox="0 0 1920 100" preserveAspectRatio="none meet">
+        <path d="M0,30.074,353.848,54.829l500.921-37.86,307.251,43.685,285.408-43.685L1747.4,78.127,1920,40.267V101H0Z" />
+    </svg>
+</div>
+
+<section class="bg-white overflow-hidden">
+    <div class="container-fluid">
+        <header class="mb-8 text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="display-4">Where should <b class="text-primary">you start</b> with your project?</h2>
+                    <p>When approaching custom software solutions, it’s important to choose a software development agency that has the processes, tools, experience, and internal culture to make your project a success.</p>
+                    <p>Landsoft is a custom software development agency, which helps companies at any stage of the product software development cycle: from R&D and building MVP from scratch, to scaling, UX analyzing and improving.</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <img src="{{data.img}}demo/img-4.png" alt="" class="img-fluid position-relative z-5">
+            </div>
+
+            <div class="col-lg-5">
+                <div class="owl-carousel owl-animate owl-light owl-visible owl-center" data-items="1" data-nav="true" data-margin="15" data-dots="true">
+
+                    {{#each data.services}}
+                    <figure class="p-3 p-lg-6 br-sm wow fadeInUp" data-wow-delay=".{{@index}}s">
+                        <label class="pre-label">{{city}}</label>
+                        <h4 class="display-4"><b>{{title}}</b></h4>
+                        <figcaption class="mb-4">
+                            {{desc}}
+                        </figcaption>
+                        <a href="#" class="btn btn-outline-light btn-rounded px-4">Read more</a>
+                    </figure>
+
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white">
+    <div class="container">
+
+        <div class="steps">
+            <ul class="row nav step-items" id="myTab" role="tablist">
+                <li class="step-figure col">
+                    <a class="active" id="home-tab" data-toggle="tab" href="#research" role="tab" aria-controls="research" aria-selected="true">
+                        <span class="step-item" data-text="Research">
+                            <span>1</span>
+                        </span>
+                    </a>
+                </li>
+                <li class="step-figure col">
+                    <a id="profile-tab" data-toggle="tab" href="#scoping" role="tab" aria-controls="scoping" aria-selected="false">
+                        <span class="step-item" data-text="Scoping">
+                            <span>2</span>
+                        </span>
+                    </a>
+                </li>
+                <li class="step-figure col">
+                    <a id="contact-tab" data-toggle="tab" href="#setup" role="tab" aria-controls="setup" aria-selected="false">
+                        <span class="step-item" data-text="Project setup">
+                            <span>3</span>
+                        </span>
+                    </a>
+                </li>
+                <li class="step-figure col">
+                    <a data-toggle="tab" href="#kickof" role="tab" aria-controls="kickof" aria-selected="false">
+                        <span class="step-item" data-text="Project kickof">
+                            <span>4</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <div class="py-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="tab-content pt-6 text-center" id="myTabContent">
+                        <div class="py-4 tab-pane fade show active" id="research" role="tabpanel" aria-labelledby="research-tab">
+                            <h2 class="display-4">We select an <b class="text-primary">expert team</b> to help you deliver your goals</h2>
+                        </div>
+                        <div class="py-4 tab-pane fade" id="scoping" role="tabpanel" aria-labelledby="scoping-tab">
+                            <h2 class="display-4">Our team partners with you to effectively <b class="text-primary">shape your business</b> idea</h2>
+                        </div>
+                        <div class="py-4 tab-pane fade" id="setup" role="tabpanel" aria-labelledby="setup-tab">
+                            <h2 class="display-4">We ensure that your project has the tools and processes <b class="text-primary">needed to succeed</b></h2>
+                        </div>
+                        <div class="py-4 tab-pane fade" id="kickof" role="tabpanel" aria-labelledby="kickof-tab">
+                            <h2 class="display-4">We work with you to <b class="text-primary">successfully create</b> a game-changing software product</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="divider bg-white">
+    <svg class="svg svg-light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="100" viewBox="0 0 1920 100" preserveAspectRatio="none meet">
+        <path d="M0,30.074,353.848,54.829l500.921-37.86,307.251,43.685,285.408-43.685L1747.4,78.127,1920,40.267V101H0Z" />
+    </svg>
+</div>
+
+{{> _comment title="Jobs"}}
+
+<section class="bg-light overflow-hidden">
+    <div class="container-fluid">
+
+        <header class="mb-4 mb-lg-6 text-center wow fadeInUp" data-wow-delay=".6s">
+            <h2 class="display-4">Get a job! <b class="text-primary">We're hiring!</b></h2>
+            <p>Browse open positions, check out the exciting job opportunities we offer in different countries!</p>
+        </header>
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-7">
+
+                <div class="owl-carousel owl-primary owl-visible owl-center" data-items="2" data-nav="true" data-margin="15" data-dots="true">
+
+                    {{#each data.jobs}}
+                    <figure class="p-3 p-lg-6 br-sm bg-white text-center wow fadeInUp" data-wow-delay=".{{@index}}s">
+                        <label class="pre-label">{{city}}</label>
+                        <h4>{{title}}</h4>
+                        <figcaption class="mb-3">Aspernatur in mollitia officia magni corrupti explicabo</figcaption>
+                        <a href="#" class="link link-right link-primary">Apply now</a>
+                    </figure>
+
+                    {{/each}}
+                </div>
+
+            </div>
+
+            <div class="col-lg-5 ">
+                <img src="{{data.img}}demo/img-5.png" alt="" class="img-fluid position-relative z-5">
+            </div>
+
+
+        </div>
     </div>
 </section>
