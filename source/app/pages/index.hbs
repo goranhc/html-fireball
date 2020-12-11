@@ -1,6 +1,6 @@
 ---
-page-title: Page title
-page-subtitle: Page subtitle
+page-title: Saas Software HTML Template
+page-subtitle: Saas Software HTML Template
 ---
 <section class="pt-lg-8">
     <div class="container">
@@ -128,9 +128,37 @@ page-subtitle: Page subtitle
     </svg>
 </div>
 
+<section>
+    <div class="container-fluid">
+
+        <header class="mb-4 mb-lg-6 text-center wow fadeInUp" data-wow-delay=".6s">
+            <h2 class="display-4">Recent work <b class="text-primary">made with passion</b></h2>
+            <p>We take the product to market as quickly as possible and use iterative software development approach until we achieve all business goals</p>
+        </header>
+
+        <div class="row">
+            {{#each data.works}}
+            <div class="col-lg-6 mb-4">
+                <div class="box box-image box-hover-drop shadow-sm" style="background-color:blue;background-image:url({{data.img}})">
+                    <div class="box-spacer-lg"></div>
+                    <div class="box-content text-white">
+                        <h4 class="display-4">
+                            <strong class="text-uppercase">{{title}}</strong> {{@key}} - {{@index}}
+                        </h4>
+                        <p><a href="#" class="link link-underline link-primary">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+
+
+    </div>
+</section>
+
 {{> _comment title="Jobs"}}
 
-<section class="bg-light overflow-hidden">
+<section class="overflow-hidden">
     <div class="container-fluid">
 
         <header class="mb-4 mb-lg-6 text-center wow fadeInUp" data-wow-delay=".6s">
@@ -162,6 +190,52 @@ page-subtitle: Page subtitle
             </div>
 
 
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container-fluid">
+
+        <header class="mb-4 mb-lg-6 text-center wow fadeInUp" data-wow-delay=".6s">
+            <h2 class="display-4">Latest <b class="text-primary">succesfull</b> stories</h2>
+            <p>Custom web and mobile apps for clients from all the world</p>
+        </header>
+
+        <div class="row">
+
+            {{#each (take data.news 4)}}
+            <div class="col-lg-3 mb-4">
+                <div class="card card-fill">
+                    <div class="pt-6 px-6">
+                        <img src="{{img}}" class="card-img-top" alt="..." width="100">
+                    </div>
+                    <div class="card-body">
+                        <div class="pre-label mb-2">01.01.2021</div>
+                        <h4 class="card-title mb-0">
+                            <a href="#">{{title}}</a>
+                        </h4>
+                    </div>
+                    <div class="card-footer card-footer-bottom">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <i class="icon icon-heart"></i> 18 likes
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4  text-right">
+                                <a href="#" class="btn btn-icon btn-circle btn-outline-secondary btn-lg">
+                                    <i class="icon icon-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{/each}}
         </div>
     </div>
 </section>

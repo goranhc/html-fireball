@@ -87,44 +87,58 @@
     ],
     "news": [
         {
-            "img": "1.jpg",
+            "img": "assets/images/demo/img-1.png",
             "title": "Home Organizers that Add Color to Your Space",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "2.jpg",
+            "img": "assets/images/demo/img-2.png",
             "title": "How to Use Room Dividers in Small Spaces",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "3.jpg",
+            "img": "assets/images/demo/img-3.png",
             "title": "Get a notification when your kids walk in the door",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "4.jpg",
+            "img": "assets/images/demo/img-4.png",
             "title": "Open your shades with a simple voice command",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "5.jpg",
+            "img": "assets/images/demo/img-5.png",
             "title": "Automatically lock the front door when you head to work",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "6.jpg",
+            "img": "assets/images/demo/img-6.png",
             "title": "Lorem ipsum dolor isum",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "7.jpg",
+            "img": "assets/images/demo/img-7.png",
             "title": "Everything you need to know about vaccinations",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "8.jpg",
+            "img": "assets/images/demo/img-8.png",
             "title": "Six simple ways to save money on airport car parking",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
+        }
+    ],
+    "works": [
+        {
+            "title": "Website for AgencyCorp"
+        },
+        {
+            "title": "Trust Banking Scanner App"
+        },
+        {
+            "title": "Online Ecommerce Solution"
+        },
+        {
+            "title": "IOS and Android App"
         }
     ],
     "services": [
