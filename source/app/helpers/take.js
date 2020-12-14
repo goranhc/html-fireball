@@ -1,3 +1,3 @@
-module.exports = function (arr, take) {
-    return arr.slice(0, take);
+module.exports =  function(arr, n) {
+    return arr.slice(0, n);
 }

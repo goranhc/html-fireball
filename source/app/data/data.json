@@ -129,15 +129,23 @@
     ],
     "works": [
         {
+            "img": "assets/images/demo/app-1.png",
+            "col": "5",
             "title": "Website for AgencyCorp"
         },
         {
+            "img": "assets/images/demo/app-2.png",
+            "col": "7",
             "title": "Trust Banking Scanner App"
         },
         {
+            "img": "assets/images/demo/app-3.png",
+            "col": "7",
             "title": "Online Ecommerce Solution"
         },
         {
+            "img": "assets/images/demo/app-4.png",
+            "col": "5",
             "title": "IOS and Android App"
         }
     ],

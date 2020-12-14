@@ -137,15 +137,16 @@ page-subtitle: Saas Software HTML Template
         </header>
 
         <div class="row">
+
             {{#each data.works}}
-            <div class="col-lg-6 mb-4">
-                <div class="box box-image box-hover-drop shadow-sm" style="background-color:blue;background-image:url({{data.img}})">
+            <div class="col-lg-{{col}} mb-4">
+                <div class="box box-image box-hover-drop shadow-sm" style="background-image:url({{img}}">
                     <div class="box-spacer-lg"></div>
                     <div class="box-content text-white">
-                        <h4 class="display-4">
-                            <strong class="text-uppercase">{{title}}</strong> {{@key}} - {{@index}}
+                        <h4>
+                            <strong class="text-uppercase">{{title}}</strong>
                         </h4>
-                        <p><a href="#" class="link link-underline link-primary">Read more</a></p>
+                        <p><a href="#" class="link link-underline link-white">Read more</a></p>
                     </div>
                 </div>
             </div>
