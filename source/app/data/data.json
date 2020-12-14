@@ -87,42 +87,50 @@
     ],
     "news": [
         {
-            "img": "assets/images/demo/img-1.png",
+            "no": "34",
+            "img": "assets/images/demo/b-1.jpg",
             "title": "Home Organizers that Add Color to Your Space",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "assets/images/demo/img-2.png",
+            "no": "54",
+            "img": "assets/images/demo/b-2.jpg",
             "title": "How to Use Room Dividers in Small Spaces",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "assets/images/demo/img-3.png",
+            "no": "67",
+            "img": "assets/images/demo/b-3.jpg",
             "title": "Get a notification when your kids walk in the door",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "assets/images/demo/img-4.png",
+            "no": "87",
+            "img": "assets/images/demo/b-4.jpg",
             "title": "Open your shades with a simple voice command",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "assets/images/demo/img-5.png",
+            "no": "42",
+            "img": "assets/images/demo/b-5.jpg",
             "title": "Automatically lock the front door when you head to work",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "assets/images/demo/img-6.png",
+            "no": "12",
+            "img": "assets/images/demo/b-6.jpg",
             "title": "Lorem ipsum dolor isum",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "assets/images/demo/img-7.png",
+            "no": "65",
+            "img": "assets/images/demo/b-7.jpg",
             "title": "Everything you need to know about vaccinations",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
-            "img": "assets/images/demo/img-8.png",
+            "no": "98",
+            "img": "assets/images/demo/b-8.jpg",
             "title": "Six simple ways to save money on airport car parking",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         }
@@ -131,22 +139,22 @@
         {
             "img": "assets/images/demo/app-1.png",
             "col": "5",
-            "title": "Website for AgencyCorp"
+            "title": "Hotel App"
         },
         {
             "img": "assets/images/demo/app-2.png",
             "col": "7",
-            "title": "Trust Banking Scanner App"
+            "title": "Furniture Website"
         },
         {
             "img": "assets/images/demo/app-3.png",
             "col": "7",
-            "title": "Online Ecommerce Solution"
+            "title": "Ecommerce Solution"
         },
         {
             "img": "assets/images/demo/app-4.png",
             "col": "5",
-            "title": "IOS and Android App"
+            "title": "iOS Service"
         }
     ],
     "services": [
