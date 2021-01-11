@@ -112,25 +112,25 @@
         },
         {
             "no": "42",
-            "img": "assets/images/demo/b-5.jpg",
+            "img": "assets/images/demo/b-1.jpg",
             "title": "Automatically lock the front door when you head to work",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
             "no": "12",
-            "img": "assets/images/demo/b-6.jpg",
+            "img": "assets/images/demo/b-2.jpg",
             "title": "Lorem ipsum dolor isum",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
             "no": "65",
-            "img": "assets/images/demo/b-7.jpg",
+            "img": "assets/images/demo/b-3.jpg",
             "title": "Everything you need to know about vaccinations",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         },
         {
             "no": "98",
-            "img": "assets/images/demo/b-8.jpg",
+            "img": "assets/images/demo/b-4.jpg",
             "title": "Six simple ways to save money on airport car parking",
             "desc": "Sed eget erat justo. Curabitur scelerisque sagittis molestie. Nunc sit amet porttitor odio."
         }
@@ -181,6 +181,68 @@
         {
             "title": "Machine Learning Agency",
             "desc": "Machine Learning is a subset of AI where the machine is trained to learn and improve from its past experience."
+        }
+    ],
+    "users": [
+        {
+            "name": "John",
+            "lastname": "Bayly",
+            "position": "CEO",
+            "img": "assets/images/demo/user-1.jpg"
+        },
+        {
+            "name": "Emma",
+            "lastname": "Mance",
+            "position": "Manager",
+            "img": "assets/images/demo/user-2.jpg"
+        },
+        {
+            "name": "William",
+            "lastname": "Kores",
+            "position": "Designer",
+            "img": "assets/images/demo/user-3.jpg"
+        },
+        {
+            "name": "Sophia",
+            "lastname": "Guess",
+            "position": "Architect",
+            "img": "assets/images/demo/user-4.jpg"
+        },
+        {
+            "name": "Lanny",
+            "lastname": "Stanway",
+            "position": "SEO",
+            "img": "assets/images/demo/user-5.jpg"
+        },
+        {
+            "name": "Anna",
+            "lastname": "Genicke",
+            "position": "Administration",
+            "img": "assets/images/demo/user-6.jpg"
+        },
+        {
+            "name": "James",
+            "lastname": "Tomasek",
+            "position": "Designer",
+            "img": "assets/images/demo/user-7.jpg"
+        },
+        {
+            "name": "Megan",
+            "lastname": "Jacobsohn",
+            "position": "Developer",
+            "img": "assets/images/demo/user-8.jpg"
+        },
+        {
+            "name": "Luna",
+            "lastname": "Riddel",
+            "position": "Consultant",
+            "img": "assets/images/demo/user-9.jpg"
+        },
+        {
+            "name": "Harley",
+            "lastname": "Conroy",
+            "position": "PR",
+            "img": "assets/images/demo/user-10.jpg"
         }
     ]
 }
