@@ -1234,7 +1234,7 @@ proto.remove = function() {
   this.hide();
 };
 
-proto.PaniniTemplate = function() {
+proto.reveal = function() {
   delete this.isHidden;
   // remove display: none
   this.css({ display: '' });
@@ -1262,7 +1262,7 @@ proto.onRevealTransitionEnd = function() {
 };
 
 /**
- * get style property use for hide/PaniniTemplate transition end
+ * get style property use for hide/reveal transition end
  * @param {String} styleProperty - hiddenStyle/visibleStyle
  * @returns {String}
  */
@@ -2011,7 +2011,7 @@ proto.appended = function( elems ) {
   if ( !items.length ) {
     return;
   }
-  // layout and PaniniTemplate just the new items
+  // layout and reveal just the new items
   this.layoutItems( items, true );
   this.reveal( items );
 };
@@ -2039,10 +2039,10 @@ proto.prepended = function( elems ) {
 };
 
 /**
- * PaniniTemplate a collection of items
+ * reveal a collection of items
  * @param {Array of Outlayer.Items} items
  */
-proto.PaniniTemplate = function( items ) {
+proto.reveal = function( items ) {
   this._emitCompleteOnItems( 'reveal', items );
   if ( !items || !items.length ) {
     return;
@@ -2071,7 +2071,7 @@ proto.hide = function( items ) {
 };
 
 /**
- * PaniniTemplate item elements
+ * reveal item elements
  * @param {Array}, {Element}, {NodeList} items
  */
 proto.revealItemElements = function( elems ) {
@@ -3130,8 +3130,8 @@ var trim = String.prototype.trim ?
   // alias to _init for main plugin method
   proto._init = proto.arrange;
 
-  proto._hidePaniniTemplate = function( filtered ) {
-    this.reveal( filtered.needPaniniTemplate );
+  proto._hideReveal = function( filtered ) {
+    this.reveal( filtered.needReveal );
     this.hide( filtered.needHide );
   };
 
@@ -3432,7 +3432,7 @@ var trim = String.prototype.trim ?
     if ( !items.length ) {
       return;
     }
-    // filter, layout, PaniniTemplate new items
+    // filter, layout, reveal new items
     var filteredItems = this._filterRevealAdded( items );
     // add to filteredItems
     this.filteredItems = this.filteredItems.concat( filteredItems );
@@ -3447,7 +3447,7 @@ var trim = String.prototype.trim ?
     // start new layout
     this._resetLayout();
     this._manageStamps();
-    // filter, layout, PaniniTemplate new items
+    // filter, layout, reveal new items
     var filteredItems = this._filterRevealAdded( items );
     // layout previous items
     this.layoutItems( this.filteredItems );
@@ -3459,7 +3459,7 @@ var trim = String.prototype.trim ?
   proto._filterRevealAdded = function( items ) {
     var filtered = this._filter( items );
     this.hide( filtered.needHide );
-    // PaniniTemplate all new items
+    // reveal all new items
     this.reveal( filtered.matches );
     // layout new items, no transition
     this.layoutItems( filtered.matches, true );
