@@ -36,7 +36,7 @@ Project structure in in <code>source</code> folder.
 ### Gulp tasks
 Compiling styles, copy files and render HTML
 
-### Build project
+#### Build project
 
 <pre>
     gulp build
