@@ -1,7 +1,7 @@
 # LandSoft
 LandSoft - Saas Software HTML Template
 
-## Developed with Panini Template Generator
+### Developed with Panini Template Generator
 Flat file generator for Bootstrap framework and templating system. Prototype is based on Panini to get a delicious flattened site out the other end. It's defined with default libraries such as Animate.css, FontsAwsome, LinearIcons, OwlCarousel.
 
 ## Quick start
