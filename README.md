@@ -42,7 +42,7 @@ Compiling styles, copy files and render HTML
     gulp build
 </pre>
 
-### Render HTML
+#### Render HTML
 
 <pre>
     gulp html
