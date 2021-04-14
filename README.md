@@ -11,7 +11,7 @@ Project structure in in <code>source</code> folder.
     npm i
 </pre>
 
-## Project structure
+### Project structure
 
 <pre>
     panini/
