@@ -33,7 +33,7 @@ Project structure in in <code>source</code> folder.
     └─── package.json
 </pre>
 
-## Gulp tasks
+### Gulp tasks
 Compiling styles, copy files and render HTML
 
 #### Build project
