@@ -48,7 +48,7 @@ Compiling styles, copy files and render HTML
     gulp html
 </pre>
 
-### Compile styles
+#### Compile styles
 
 <pre>
     gulp sass
