@@ -1,4 +1,4 @@
-# LandSoft 
+# LandSoft
 LandSoft - Saas Software Template
 
 ### Developed with Template Generator
