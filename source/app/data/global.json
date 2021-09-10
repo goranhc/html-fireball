@@ -1,0 +1,14 @@
+{
+	"site": {
+		"title": "Sitename",
+		"name": "HTML Template",
+		"description": "Template generator",
+		"author": "Goran Hrustic",
+		"keywords": "template, generator",
+		"copyright": "All rights reserved 2021 © Sitename"
+	},
+	"settings": {
+		"production": false,
+		"version": "0"
+	}
+}
