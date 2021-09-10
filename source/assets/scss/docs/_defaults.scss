@@ -1,0 +1,184 @@
+[data-docs] {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    line-height: 1.8;
+    
+    p {
+        code {
+            font-size: 100% !important;
+        }
+    }
+
+    .wrapper {
+        max-width: 1380px;
+        margin: 0 auto;
+    }
+
+    .content-wrapper {
+        display: flex;
+
+        .navigation {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+
+        .content {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+    }
+
+
+    aside {
+        border-right: 1px solid #d7e4ff;
+
+        a {
+            color: black;
+        }
+
+        @media (max-width: 998px) {
+            & {
+                background-color: white;
+                position: fixed;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 300px;
+                z-index: 9090;
+                overflow: auto;
+                transform: translate3d(-100%, 0, 0);
+                transition: all 0.4s;
+
+                &.active {
+                    transform: translate3d(0, 0, 0);
+                }
+            }
+        }
+    }
+
+    .header,
+    section {
+        padding: 1rem;
+
+        @media (min-width: 998px) {
+            & {
+                padding: 3rem;
+            }
+        }
+
+        header {
+            margin-bottom: 1rem;
+        }
+
+        article {
+            padding-top: 1.5rem;
+
+            .col-item {
+                @media (min-width: 1200px) {
+                    width: 25rem;
+                    max-width: 25rem;
+                    flex: 25rem;
+                }
+            }
+
+            > figure {
+                padding: 0;
+                margin: 0 0 4rem 0;
+
+                > figcaption {
+                    font-size: 1.5rem;
+                    margin-bottom: 2.5rem;
+                    border-left: 2px solid #788db9;
+                    padding-left: 1rem;
+                    margin-left: -1rem;
+                    padding-top: 0.5rem;
+                    padding-bottom: 0.5rem;
+
+                    @media (min-width: 998px) {
+                        & {
+                            padding-left: 3rem;
+                            margin-left: -3rem;
+                        }
+                    }
+
+                    + p {
+                        margin-top: -1rem;
+                        margin-bottom: 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        border-top: 1px solid #d7e4ff;
+    }
+
+    .navigation-aside {
+        @media (min-width: 998px) {
+            & {
+                position: sticky;
+                top: 10px;
+            }
+        }
+
+        .navigation-link {
+            display: block;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-right: 2px solid transparent;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+
+            &.navigation-link-main {
+                position: relative;
+
+                &:before {
+                    content: "›";
+                    position: absolute;
+                    right: 30px;
+                    top: 50%;
+                    transform: translateY(-50%) rotate(-90deg);
+                    transition: all 0.4s;
+                }
+            }
+
+            &:hover {
+                background-color: #ebebeb;
+            }
+        }
+
+        .navigation-item {
+            &.active {
+                .navigation-link-main {
+                    font-weight: 700;
+
+                    &:before {
+                        transform: translateY(-50%) rotate(90deg);
+                    }
+                }
+
+                > .navigation-collapse {
+                    .navigation-link {
+                        &.active {
+                            background-color: #ebebeb;
+                            color: rgb(85, 85, 85);
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+
+        .navigation-collapse {
+            display: none;
+
+            .navigation-link {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 0.875rem;
+            }
+        }
+    }
+
+}
