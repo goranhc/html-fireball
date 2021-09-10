@@ -1,0 +1,34 @@
+{
+    "SOURCE": {
+        "src": "source",
+        "src_js": "source/assets/js",
+        "src_css": "source/assets/scss",
+        "prod": "html",
+        "prod_js": "html/js",
+        "prod_css": "html/css",
+        "prod_img": "html/assets/images/",
+        "docs": "documentation",
+        "docs_js": "documentation/assets/js",
+        "docs_css": "documentation/assets/css"
+    },
+    "APP": {
+        "root": "source/app/pages",
+        "layouts": "source/app/layout",
+        "partials": "source/app/partials/",
+        "helpers": "source/app/helpers/",
+        "data": "source/app/data/"
+    },
+    "DOCS": {
+        "root": "source/docs/pages/",
+        "layouts": "source/docs/layout",
+        "partials": "source/docs/partials/",
+        "data": "source/docs/data/"
+    },
+    "COPY": {
+        "js": "source/assets/js/**",
+        "css": "source/assets/css/**",
+        "img": "source/assets/images/**",
+        "test": "source/assets/images/test/**",
+        "svg": "source/assets/svg/**"
+    }
+}
