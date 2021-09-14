@@ -1,22 +1,20 @@
 ## HTML Fireball
 This template generator have predefined tasks to render and manipulate mass files to compile and deploy HTML templates. It uses Panini - flat file generator which compiles a series of HTML pages using a common layout. Also it compiles a documentation library for your projects, which helps you create your offline and online documentation for your next projects. It can be used exclusively by independent developers and designers.
 
-## Demo preview
+## Demo example
 
 ### Partials
 
 ##### Navbar
 ```html
 <nav>
-    <h2>Navigation works!</h2>
-    <p>Navigation content!</p>
+    <h2>Navigation</h2>
 </nav>
 ```
 ##### Footer
 ```html
 <footer>
-    <h2>Footer works!</h2>
-    <p>Footer content!</p>
+    <h2>Footer</h2>
 </footer>
 ```
 
@@ -59,16 +57,14 @@ page-subtitle: First page subtitle
 </head>
 <body>
     <nav>
-        <h2>Navigation works!</h2>
-        <p>Navigation content!</p>
+        <h2>Navigation</h2>
     </nav>
     <section>
         <p>Hello world!</p>
     </section>
 
     <footer>
-        <h2>Footer works!</h2>
-        <p>Footer content!</p>
+        <h2>Footer</h2>
     </footer>
 </body>
 </html>
