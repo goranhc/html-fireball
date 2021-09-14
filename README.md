@@ -1,4 +1,4 @@
-![A test image](https://repository-images.githubusercontent.com/319985569/62e3f816-827d-45d0-bdff-b2c018f10e66) 
+![A test image](http://www.elathemes.com/assets/images/fireball.png) 
 
 ## HTML Fireball
 This template generator have predefined tasks to render and manipulate mass files to compile and deploy HTML templates. It uses Panini - flat file generator which compiles a series of HTML pages using a common layout. Also it compiles a documentation library for your projects, which helps you create your offline and online documentation for your next projects. It can be used exclusively by independent developers and designers.
