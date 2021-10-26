@@ -2,7 +2,7 @@
 
 ## HTML Fireball
 This template generator have predefined tasks to render and manipulate mass files to compile and deploy HTML templates. It uses Panini - flat file generator which compiles a series of HTML pages using a common layout. Also it compiles a documentation library for your projects, which helps you create your offline and online documentation for your next projects. It can be used exclusively by independent developers and designers.
-
+---------------
 ## Quick start
 Project structure is in <code>source</code> folder.
 
@@ -58,31 +58,24 @@ Compiling styles, copy files and render HTML
 ## Demo example
 
 ### Default layout
-###### /app/layout/default.hbs
+<code>/app/layout/default.hbs</code>
 
 ```handlebars
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>{{page-title}}</title>
 </head>
-
 <body>
-
-    {{> _layout-navbar }}
-    
-    {{> body }}
-    
-    {{> _layout-footer }}
-    
+    {{> _layout-navbar }}  
+    {{> body }} 
+    {{> _layout-footer }}   
 </body>
-
 </html>
 ```
 
 ### Landingpage 
-###### /app/pages/index.hbs
+<code>/app/pages/index.hbs</code>
 ```html
 ---
 page-title: First page
@@ -94,14 +87,15 @@ page-subtitle: First page subtitle
 ```
 
 ### Partials views
+<code> /partials/layout/_layout-navbar.hbs</code>
 
-###### /partials/layout/_layout-navbar.hbs
 ```html
 <nav>
     <h2>Navigation</h2>
 </nav>
 ```
-###### /partials/layout/_layout-footer.hbs
+
+<code>/partials/layout/_layout-footer.hbs</code>
 ```html
 <footer>
     <h2>Footer</h2>
@@ -129,4 +123,3 @@ page-subtitle: First page subtitle
 </body>
 </html>
 ```
-
