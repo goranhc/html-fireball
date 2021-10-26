@@ -2,7 +2,7 @@
 
 ## HTML Fireball
 This template generator have predefined tasks to render and manipulate mass files to compile and deploy HTML templates. It uses Panini - flat file generator which compiles a series of HTML pages using a common layout. Also it compiles a documentation library for your projects, which helps you create your offline and online documentation for your next projects. It can be used exclusively by independent developers and designers.
----------------
+
 ## Quick start
 Project structure is in <code>source</code> folder.
 
